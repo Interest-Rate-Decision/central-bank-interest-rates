@@ -1,0 +1,18 @@
+title: Central Bank Interest Rates Dataset
+description: Every interest rate decision of the Fed, ECB, Bank of England, Bank of Japan, Bank of Canada, RBA, RBNZ, SNB, Norges Bank and Riksbank since 2008, as free CSV and JSON.
+url: https://interest-rate-decision.github.io
+baseurl: /central-bank-interest-rates
+theme: jekyll-theme-cayman
+image: /assets/banner.png
+author: InterestRateDecision.com
+social:
+  name: InterestRateDecision.com
+  links:
+    - https://interestratedecision.com
+    - https://github.com/Interest-Rate-Decision
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+exclude:
+  - datapackage.json
+  - CITATION.cff

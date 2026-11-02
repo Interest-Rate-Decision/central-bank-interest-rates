@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it and link to https://interestratedecision.com"
+type: dataset
+title: "Central bank interest rates since 2008"
+abstract: "Every interest rate decision of the Federal Reserve, European Central Bank, Bank of England, Bank of Japan, Bank of Canada, Reserve Bank of Australia, Reserve Bank of New Zealand, Swiss National Bank, Norges Bank and Sveriges Riksbank since 2008, with the time of each announcement, the policy rate and the change in basis points. Updated after every decision."
+authors:
+  - name: "InterestRateDecision.com"
+    website: "https://interestratedecision.com"
+url: "https://interestratedecision.com/central-bank-data/"
+repository-code: "https://github.com/Interest-Rate-Decision/central-bank-interest-rates"
+license-url: "https://interestratedecision.com/central-bank-data/#licence"
+keywords:
+  - interest rates
+  - central banks
+  - monetary policy
+  - federal funds rate
+  - ECB deposit rate
+  - Bank of England
+  - Bank of Japan
+  - policy rate
+  - dataset
+date-released: "2026-11-02"
