@@ -1,0 +1,38 @@
+name: Sync from InterestRateDecision.com
+
+on:
+  schedule:
+    - cron: '17 */6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch the files
+        run: |
+          set -euo pipefail
+          for f in decisions.csv rates.json next.json; do
+            curl -fsSL --retry 3 "https://interestratedecision.com/data/$f" -o "data/$f.new"
+            # keep the old file if the new one is empty or broken
+            test -s "data/$f.new"
+            case "$f" in *.json) python3 -c "import json,sys; json.load(open('data/$f.new'))" ;; esac
+            mv "data/$f.new" "data/$f"
+          done
+      - name: Commit what changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # rates.json and next.json carry the time they were built: commit only when the decisions or rates changed
+          if git diff --quiet -- data/decisions.csv && [ "$(git diff -U0 -- data/rates.json data/next.json | grep -E '^[+-] ' | grep -vc asOf)" = "0" ]; then
+            git checkout -- data
+            echo "Nothing new"
+          else
+            git add data
+            git commit -m "Data: $(date -u +%Y-%m-%d)"
+            git push
+          fi

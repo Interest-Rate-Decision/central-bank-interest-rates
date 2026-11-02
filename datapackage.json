@@ -1,0 +1,29 @@
+{
+  "name": "central-bank-interest-rates",
+  "title": "Central bank interest rates since 2008",
+  "description": "Every interest rate decision of the Federal Reserve, ECB, Bank of England, Bank of Japan, Bank of Canada, RBA, RBNZ, SNB, Norges Bank and the Riksbank since 2008.",
+  "homepage": "https://interestratedecision.com/central-bank-data/",
+  "keywords": ["interest rates", "central banks", "monetary policy", "federal funds rate", "ECB", "Bank of England", "forex"],
+  "licenses": [{ "name": "InterestRateDecision.com data terms", "path": "https://interestratedecision.com/central-bank-data/#licence", "title": "Free to reuse with a link to https://interestratedecision.com" }],
+  "sources": [{ "title": "InterestRateDecision.com", "path": "https://interestratedecision.com/" }],
+  "resources": [
+    {
+      "name": "decisions",
+      "path": "data/decisions.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          { "name": "bank", "type": "string", "description": "fed, ecb, boe, boj, boc, rba, rbnz, snb, norges or riksbank" },
+          { "name": "bank_name", "type": "string" },
+          { "name": "time_utc", "type": "datetime", "description": "The announcement, UTC" },
+          { "name": "date", "type": "date" },
+          { "name": "rate", "type": "number", "description": "The policy rate after the decision, per cent (the Fed: top of the target range)" },
+          { "name": "change_bp", "type": "integer", "description": "Change against the decision before, basis points" }
+        ]
+      }
+    },
+    { "name": "rates", "path": "data/rates.json", "format": "json", "mediatype": "application/json" },
+    { "name": "next", "path": "data/next.json", "format": "json", "mediatype": "application/json" }
+  ]
+}
