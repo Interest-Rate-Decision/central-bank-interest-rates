@@ -31,12 +31,12 @@ The same files are served live at `https://interestratedecision.com/data/decisio
 
 ```python
 import pandas as pd
-df = pd.read_csv("https://raw.githubusercontent.com/InterestRateDecision/central-bank-interest-rates/main/data/decisions.csv", parse_dates=["time_utc"])
+df = pd.read_csv("https://raw.githubusercontent.com/Interest-Rate-Decision/central-bank-interest-rates/main/data/decisions.csv", parse_dates=["time_utc"])
 df[df.bank == "fed"].set_index("time_utc").rate.plot(drawstyle="steps-post")
 ```
 
 ```r
-d <- read.csv("https://raw.githubusercontent.com/InterestRateDecision/central-bank-interest-rates/main/data/decisions.csv")
+d <- read.csv("https://raw.githubusercontent.com/Interest-Rate-Decision/central-bank-interest-rates/main/data/decisions.csv")
 ```
 
 ```js
