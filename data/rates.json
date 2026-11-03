@@ -1,5 +1,5 @@
 {
- "asOf": "2026-10-31T19:31:40.945Z",
+ "asOf": "2026-11-03T06:23:55.111Z",
  "source": "https://interestratedecision.com/about/",
  "licence": "Free to reuse with a link to https://interestratedecision.com",
  "rates": [
@@ -58,9 +58,9 @@
    "bank": "rba",
    "name": "Reserve Bank of Australia",
    "rateName": "cash rate target",
-   "rate": 4.6,
-   "lastChange": "2026-09-29T04:30:00.000Z",
-   "nextDecision": "2026-11-03T03:30:00.000Z",
+   "rate": 4.85,
+   "lastChange": "2026-11-03T03:30:00.000Z",
+   "nextDecision": "2026-12-08T03:30:00.000Z",
    "page": "https://interestratedecision.com/rba/",
    "history": "https://interestratedecision.com/rba/rate-history.csv"
   },

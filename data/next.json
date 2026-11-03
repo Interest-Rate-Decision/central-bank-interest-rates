@@ -1,22 +1,8 @@
 {
- "asOf": "2026-10-31T19:31:40.945Z",
+ "asOf": "2026-11-03T06:23:55.111Z",
  "source": "https://interestratedecision.com/about/",
  "licence": "Free to reuse with a link to https://interestratedecision.com",
  "decisions": [
-  {
-   "bank": "rba",
-   "name": "Reserve Bank of Australia",
-   "short": "RBA",
-   "rateName": "cash rate target",
-   "range": false,
-   "t": "2026-11-03T03:30:00.000Z",
-   "tentative": false,
-   "pressConference": "2026-11-03T04:30:00Z",
-   "projections": false,
-   "rateBefore": 4.6,
-   "path": "/rba/november-2026/",
-   "page": "https://interestratedecision.com/rba/november-2026/"
-  },
   {
    "bank": "riksbank",
    "name": "Sveriges Riksbank",
@@ -69,7 +55,7 @@
    "tentative": false,
    "pressConference": "2026-12-08T04:30:00Z",
    "projections": false,
-   "rateBefore": 4.6,
+   "rateBefore": 4.85,
    "path": "/rba/december-2026/",
    "page": "https://interestratedecision.com/rba/december-2026/"
   },
@@ -242,5 +228,7 @@
    "page": "https://interestratedecision.com/fed/january-2027/"
   }
  ],
- "justDecided": []
+ "justDecided": [
+  "/rba/november-2026/"
+ ]
 }
