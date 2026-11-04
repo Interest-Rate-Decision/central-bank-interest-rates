@@ -1,5 +1,5 @@
 {
- "asOf": "2026-11-03T18:17:55.065Z",
+ "asOf": "2026-11-04T14:16:20.974Z",
  "source": "https://interestratedecision.com/about/",
  "licence": "Free to reuse with a link to https://interestratedecision.com",
  "rates": [
@@ -98,9 +98,9 @@
    "bank": "riksbank",
    "name": "Sveriges Riksbank",
    "rateName": "policy rate",
-   "rate": 1.75,
-   "lastChange": "2025-09-23T07:30:00.000Z",
-   "nextDecision": "2026-11-04T08:30:00.000Z",
+   "rate": 2,
+   "lastChange": "2026-11-04T08:30:00.000Z",
+   "nextDecision": "2026-12-16T08:30:00.000Z",
    "page": "https://interestratedecision.com/riksbank/",
    "history": "https://interestratedecision.com/riksbank/rate-history.csv"
   }

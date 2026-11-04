@@ -1,22 +1,8 @@
 {
- "asOf": "2026-11-03T18:17:55.065Z",
+ "asOf": "2026-11-04T14:16:20.974Z",
  "source": "https://interestratedecision.com/about/",
  "licence": "Free to reuse with a link to https://interestratedecision.com",
  "decisions": [
-  {
-   "bank": "riksbank",
-   "name": "Sveriges Riksbank",
-   "short": "Riksbank",
-   "rateName": "policy rate",
-   "range": false,
-   "t": "2026-11-04T08:30:00.000Z",
-   "tentative": false,
-   "pressConference": "2026-11-04T10:00:00.000Z",
-   "projections": false,
-   "rateBefore": 1.75,
-   "path": "/riksbank/november-2026/",
-   "page": "https://interestratedecision.com/riksbank/november-2026/"
-  },
   {
    "bank": "norges",
    "name": "Norges Bank",
@@ -125,7 +111,7 @@
    "tentative": false,
    "pressConference": "2026-12-16T10:00:00.000Z",
    "projections": false,
-   "rateBefore": 1.75,
+   "rateBefore": 2,
    "path": "/riksbank/december-2026/",
    "page": "https://interestratedecision.com/riksbank/december-2026/"
   },
@@ -228,5 +214,7 @@
    "page": "https://interestratedecision.com/fed/january-2027/"
   }
  ],
- "justDecided": []
+ "justDecided": [
+  "/riksbank/november-2026/"
+ ]
 }
