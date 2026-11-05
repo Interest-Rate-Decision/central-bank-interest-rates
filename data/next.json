@@ -1,36 +1,8 @@
 {
- "asOf": "2026-11-04T22:13:27.523Z",
+ "asOf": "2026-11-05T18:19:18.228Z",
  "source": "https://interestratedecision.com/about/",
  "licence": "Free to reuse with a link to https://interestratedecision.com",
  "decisions": [
-  {
-   "bank": "norges",
-   "name": "Norges Bank",
-   "short": "Norges Bank",
-   "rateName": "policy rate",
-   "range": false,
-   "t": "2026-11-05T09:00:00.000Z",
-   "tentative": false,
-   "pressConference": null,
-   "projections": false,
-   "rateBefore": 4.5,
-   "path": "/norges/november-2026/",
-   "page": "https://interestratedecision.com/norges/november-2026/"
-  },
-  {
-   "bank": "boe",
-   "name": "Bank of England",
-   "short": "BoE",
-   "rateName": "Bank Rate",
-   "range": false,
-   "t": "2026-11-05T12:00:00.000Z",
-   "tentative": false,
-   "pressConference": "2026-11-05T12:30:00.000Z",
-   "projections": true,
-   "rateBefore": 3.75,
-   "path": "/boe/november-2026/",
-   "page": "https://interestratedecision.com/boe/november-2026/"
-  },
   {
    "bank": "rba",
    "name": "Reserve Bank of Australia",
@@ -139,7 +111,7 @@
    "tentative": false,
    "pressConference": null,
    "projections": false,
-   "rateBefore": 3.75,
+   "rateBefore": 4,
    "path": "/boe/december-2026/",
    "page": "https://interestratedecision.com/boe/december-2026/"
   },
