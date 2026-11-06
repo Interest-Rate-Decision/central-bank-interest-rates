@@ -1,5 +1,5 @@
 {
- "asOf": "2026-11-05T18:19:18.228Z",
+ "asOf": "2026-11-06T18:19:06.875Z",
  "source": "https://interestratedecision.com/about/",
  "licence": "Free to reuse with a link to https://interestratedecision.com",
  "decisions": [
@@ -184,6 +184,34 @@
    "rateBefore": 4,
    "path": "/fed/january-2027/",
    "page": "https://interestratedecision.com/fed/january-2027/"
+  },
+  {
+   "bank": "boe",
+   "name": "Bank of England",
+   "short": "BoE",
+   "rateName": "Bank Rate",
+   "range": false,
+   "t": "2027-02-04T12:00:00.000Z",
+   "tentative": false,
+   "pressConference": "2027-02-04T12:30:00.000Z",
+   "projections": true,
+   "rateBefore": 4,
+   "path": "/boe/february-2027/",
+   "page": "https://interestratedecision.com/boe/february-2027/"
+  },
+  {
+   "bank": "ecb",
+   "name": "European Central Bank",
+   "short": "ECB",
+   "rateName": "deposit facility rate",
+   "range": false,
+   "t": "2027-02-04T13:15:00.000Z",
+   "tentative": false,
+   "pressConference": "2027-02-04T13:45:00Z",
+   "projections": false,
+   "rateBefore": 2.5,
+   "path": "/ecb/february-2027/",
+   "page": "https://interestratedecision.com/ecb/february-2027/"
   }
  ],
  "justDecided": []
