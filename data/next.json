@@ -1,5 +1,5 @@
 {
- "asOf": "2026-11-06T18:19:06.875Z",
+ "asOf": "2026-11-10T06:23:02.182Z",
  "source": "https://interestratedecision.com/about/",
  "licence": "Free to reuse with a link to https://interestratedecision.com",
  "decisions": [
@@ -15,7 +15,13 @@
    "projections": false,
    "rateBefore": 4.85,
    "path": "/rba/december-2026/",
-   "page": "https://interestratedecision.com/rba/december-2026/"
+   "page": "https://interestratedecision.com/rba/december-2026/",
+   "odds": {
+    "hike": 0.662,
+    "hold": 0.337,
+    "cut": 0.001
+   },
+   "following": "2027-02-09T03:30:00.000Z"
   },
   {
    "bank": "rbnz",
@@ -29,7 +35,13 @@
    "projections": false,
    "rateBefore": 2.75,
    "path": "/rbnz/december-2026/",
-   "page": "https://interestratedecision.com/rbnz/december-2026/"
+   "page": "https://interestratedecision.com/rbnz/december-2026/",
+   "odds": {
+    "hike": 0.169,
+    "hold": 0.821,
+    "cut": 0.01
+   },
+   "following": "2027-02-10T01:00:00.000Z"
   },
   {
    "bank": "boc",
@@ -43,7 +55,13 @@
    "projections": false,
    "rateBefore": 2.5,
    "path": "/boc/december-2026/",
-   "page": "https://interestratedecision.com/boc/december-2026/"
+   "page": "https://interestratedecision.com/boc/december-2026/",
+   "odds": {
+    "hike": 0.606,
+    "hold": 0.393,
+    "cut": 0.001
+   },
+   "following": "2027-01-27T14:45:00.000Z"
   },
   {
    "bank": "fed",
@@ -57,7 +75,13 @@
    "projections": true,
    "rateBefore": 4,
    "path": "/fed/december-2026/",
-   "page": "https://interestratedecision.com/fed/december-2026/"
+   "page": "https://interestratedecision.com/fed/december-2026/",
+   "odds": {
+    "hike": 0.372,
+    "hold": 0.621,
+    "cut": 0.007
+   },
+   "following": "2027-01-27T19:00:00.000Z"
   },
   {
    "bank": "snb",
@@ -71,7 +95,13 @@
    "projections": false,
    "rateBefore": 0,
    "path": "/snb/december-2026/",
-   "page": "https://interestratedecision.com/snb/december-2026/"
+   "page": "https://interestratedecision.com/snb/december-2026/",
+   "odds": {
+    "hike": 0.019,
+    "hold": 0.926,
+    "cut": 0.055
+   },
+   "following": "2027-03-18T08:30:00.000Z"
   },
   {
    "bank": "riksbank",
@@ -85,7 +115,13 @@
    "projections": false,
    "rateBefore": 2,
    "path": "/riksbank/december-2026/",
-   "page": "https://interestratedecision.com/riksbank/december-2026/"
+   "page": "https://interestratedecision.com/riksbank/december-2026/",
+   "odds": {
+    "hike": 0.616,
+    "hold": 0.382,
+    "cut": 0.002
+   },
+   "following": null
   },
   {
    "bank": "norges",
@@ -99,7 +135,13 @@
    "projections": false,
    "rateBefore": 4.5,
    "path": "/norges/december-2026/",
-   "page": "https://interestratedecision.com/norges/december-2026/"
+   "page": "https://interestratedecision.com/norges/december-2026/",
+   "odds": {
+    "hike": 0.381,
+    "hold": 0.613,
+    "cut": 0.006
+   },
+   "following": null
   },
   {
    "bank": "boe",
@@ -113,7 +155,13 @@
    "projections": false,
    "rateBefore": 4,
    "path": "/boe/december-2026/",
-   "page": "https://interestratedecision.com/boe/december-2026/"
+   "page": "https://interestratedecision.com/boe/december-2026/",
+   "odds": {
+    "hike": 0.72,
+    "hold": 0.278,
+    "cut": 0.001
+   },
+   "following": "2027-02-04T12:00:00.000Z"
   },
   {
    "bank": "ecb",
@@ -127,7 +175,13 @@
    "projections": false,
    "rateBefore": 2.5,
    "path": "/ecb/december-2026/",
-   "page": "https://interestratedecision.com/ecb/december-2026/"
+   "page": "https://interestratedecision.com/ecb/december-2026/",
+   "odds": {
+    "hike": 0.24,
+    "hold": 0.751,
+    "cut": 0.009
+   },
+   "following": "2027-02-04T13:15:00.000Z"
   },
   {
    "bank": "boj",
@@ -141,7 +195,13 @@
    "projections": false,
    "rateBefore": 1.25,
    "path": "/boj/december-2026/",
-   "page": "https://interestratedecision.com/boj/december-2026/"
+   "page": "https://interestratedecision.com/boj/december-2026/",
+   "odds": {
+    "hike": 0.24,
+    "hold": 0.751,
+    "cut": 0.009
+   },
+   "following": "2027-01-22T03:00:00.000Z"
   },
   {
    "bank": "boj",
@@ -155,7 +215,13 @@
    "projections": false,
    "rateBefore": 1.25,
    "path": "/boj/january-2027/",
-   "page": "https://interestratedecision.com/boj/january-2027/"
+   "page": "https://interestratedecision.com/boj/january-2027/",
+   "odds": {
+    "hike": 0.276,
+    "hold": 0.714,
+    "cut": 0.01
+   },
+   "following": "2027-03-18T03:00:00.000Z"
   },
   {
    "bank": "boc",
@@ -169,7 +235,13 @@
    "projections": true,
    "rateBefore": 2.5,
    "path": "/boc/january-2027/",
-   "page": "https://interestratedecision.com/boc/january-2027/"
+   "page": "https://interestratedecision.com/boc/january-2027/",
+   "odds": {
+    "hike": 0.462,
+    "hold": 0.534,
+    "cut": 0.004
+   },
+   "following": "2027-03-17T13:45:00.000Z"
   },
   {
    "bank": "fed",
@@ -183,7 +255,13 @@
    "projections": false,
    "rateBefore": 4,
    "path": "/fed/january-2027/",
-   "page": "https://interestratedecision.com/fed/january-2027/"
+   "page": "https://interestratedecision.com/fed/january-2027/",
+   "odds": {
+    "hike": 0.413,
+    "hold": 0.578,
+    "cut": 0.008
+   },
+   "following": "2027-03-17T18:00:00.000Z"
   },
   {
    "bank": "boe",
@@ -197,7 +275,13 @@
    "projections": true,
    "rateBefore": 4,
    "path": "/boe/february-2027/",
-   "page": "https://interestratedecision.com/boe/february-2027/"
+   "page": "https://interestratedecision.com/boe/february-2027/",
+   "odds": {
+    "hike": 0.566,
+    "hold": 0.43,
+    "cut": 0.004
+   },
+   "following": "2027-03-18T11:00:00.000Z"
   },
   {
    "bank": "ecb",
@@ -211,7 +295,13 @@
    "projections": false,
    "rateBefore": 2.5,
    "path": "/ecb/february-2027/",
-   "page": "https://interestratedecision.com/ecb/february-2027/"
+   "page": "https://interestratedecision.com/ecb/february-2027/",
+   "odds": {
+    "hike": 0.324,
+    "hold": 0.665,
+    "cut": 0.011
+   },
+   "following": "2027-03-18T13:15:00.000Z"
   }
  ],
  "justDecided": []
