@@ -1,5 +1,5 @@
 {
- "asOf": "2026-11-10T06:23:02.182Z",
+ "asOf": "2026-11-11T04:16:55.326Z",
  "source": "https://interestratedecision.com/about/",
  "licence": "Free to reuse with a link to https://interestratedecision.com",
  "decisions": [
@@ -302,6 +302,26 @@
     "cut": 0.011
    },
    "following": "2027-03-18T13:15:00.000Z"
+  },
+  {
+   "bank": "rba",
+   "name": "Reserve Bank of Australia",
+   "short": "RBA",
+   "rateName": "cash rate target",
+   "range": false,
+   "t": "2027-02-09T03:30:00.000Z",
+   "tentative": false,
+   "pressConference": "2027-02-09T04:30:00Z",
+   "projections": false,
+   "rateBefore": 4.85,
+   "path": "/rba/february-2027/",
+   "page": "https://interestratedecision.com/rba/february-2027/",
+   "odds": {
+    "hike": 0.517,
+    "hold": 0.48,
+    "cut": 0.003
+   },
+   "following": "2027-03-23T03:30:00.000Z"
   }
  ],
  "justDecided": []
