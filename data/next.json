@@ -1,5 +1,5 @@
 {
- "asOf": "2026-11-11T04:16:55.326Z",
+ "asOf": "2026-11-12T14:16:01.140Z",
  "source": "https://interestratedecision.com/about/",
  "licence": "Free to reuse with a link to https://interestratedecision.com",
  "decisions": [
@@ -322,6 +322,26 @@
     "cut": 0.003
    },
    "following": "2027-03-23T03:30:00.000Z"
+  },
+  {
+   "bank": "rbnz",
+   "name": "Reserve Bank of New Zealand",
+   "short": "RBNZ",
+   "rateName": "Official Cash Rate",
+   "range": false,
+   "t": "2027-02-10T01:00:00.000Z",
+   "tentative": false,
+   "pressConference": "2027-02-10T02:00:00Z",
+   "projections": false,
+   "rateBefore": 2.75,
+   "path": "/rbnz/february-2027/",
+   "page": "https://interestratedecision.com/rbnz/february-2027/",
+   "odds": {
+    "hike": 0.261,
+    "hold": 0.725,
+    "cut": 0.014
+   },
+   "following": "2027-03-17T01:00:00.000Z"
   }
  ],
  "justDecided": []
